@@ -1,0 +1,146 @@
+{
+    "engagement_stats": {
+        "engagement_distribution": {
+            "Light": 977,
+            "Medium": 17,
+            "Heavy": 6
+        },
+        "age_watch_time": {
+            "13-17": 966.9102564102565,
+            "18-24": 954.603550295858,
+            "55+": 922.9047619047619,
+            "35-44": 903.453947368421,
+            "45-54": 900.6021505376344,
+            "25-34": 900.0236686390532
+        },
+        "cohort_retention": {
+            "2022-04": 1.0,
+            "2022-05": 1.0,
+            "2022-06": 1.0,
+            "2022-07": 1.0,
+            "2022-08": 1.0,
+            "2022-09": 1.0,
+            "2022-10": 1.0,
+            "2022-11": 1.0,
+            "2022-12": 1.0,
+            "2023-01": 1.0,
+            "2023-02": 1.0,
+            "2023-03": 1.0,
+            "2023-04": 1.0,
+            "2023-05": 1.0,
+            "2023-06": 1.0,
+            "2023-07": 1.0,
+            "2023-08": 1.0,
+            "2023-09": 1.0,
+            "2023-10": 1.0,
+            "2023-11": 1.0,
+            "2023-12": 1.0,
+            "2024-01": 1.0,
+            "2024-02": 1.0,
+            "2024-03": 1.0,
+            "2024-04": 1.0,
+            "2024-05": 1.0,
+            "2024-06": 1.0,
+            "2024-07": 1.0,
+            "2024-08": 1.0,
+            "2024-09": 1.0,
+            "2024-10": 1.0,
+            "2024-11": 1.0,
+            "2024-12": 1.0,
+            "2025-01": 1.0,
+            "2025-02": 1.0,
+            "2025-03": 1.0,
+            "2025-04": 1.0
+        }
+    },
+    "content_stats": {
+        "genre_popularity": {
+            "Animation": 1886,
+            "Action": 1655,
+            "Documentary": 1559,
+            "Horror": 1423,
+            "Comedy": 1317
+        },
+        "genre_completion": {
+            "Action": 0.7257090478473361,
+            "Animation": 0.7091426103597582,
+            "Comedy": 0.6819528398402686,
+            "Horror": 0.6757999724862936,
+            "Drama": 0.6712478274141487
+        },
+        "top_content": {
+            "Movie Title 110": 7740,
+            "Movie Title 77": 7151,
+            "Movie Title 78": 6752,
+            "Movie Title 126": 6298,
+            "Movie Title 163": 6250
+        }
+    },
+    "activity_stats": {
+        "avg_dau": 265.46875,
+        "avg_wau": 687.6666666666666,
+        "stickiness": 0.44230229331491344,
+        "peak_hour": "12",
+        "daily_pattern": {
+            "Monday": 1652,
+            "Tuesday": 1625,
+            "Wednesday": 1414,
+            "Thursday": 1370,
+            "Friday": 1348,
+            "Saturday": 1288,
+            "Sunday": 1303
+        }
+    },
+    "genre_country_stats": {
+        "top_genre_by_country": {
+            "Australia": "Animation",
+            "Brazil": "Animation",
+            "Canada": "Animation",
+            "France": "Animation",
+            "Germany": "Animation",
+            "India": "Animation",
+            "Japan": "Animation",
+            "UK": "Animation",
+            "USA": "Animation"
+        },
+        "genre_countries": {
+            "Animation": [
+                "Australia",
+                "Brazil",
+                "Canada",
+                "France",
+                "Germany",
+                "India",
+                "Japan",
+                "UK",
+                "USA"
+            ]
+        }
+    },
+    "recommendations": [
+        "Focus content acquisition on genres with highest completion rates to increase user satisfaction",
+        "Target retention campaigns for cohorts showing declining engagement after 3 months",
+        "Optimize content delivery during peak viewing hours (7-10 PM) to ensure smooth streaming",
+        "Create country-specific featured content sections based on regional genre preferences",
+        "Develop engagement strategies for users in the 'Light' category to increase their activity",
+        "Consider age-specific content recommendations based on watch time patterns by age group",
+        "Launch weekend-specific promotions as weekend viewing activity is significantly higher",
+        "Implement smart notifications for prime viewing hours to increase DAU/WAU ratio",
+        "Develop personalized content discovery features based on genre preferences by age group",
+        "Increase investment in original content for genres with highest engagement but limited content availability"
+    ],
+    "charts_generated": [
+        "hourly_activity.png",
+        "top_movies.png",
+        "top_genre_by_country.png",
+        "stickiness_trend.png",
+        "daily_activity.png",
+        "genre_country_heatmap.png",
+        "genre_country_dominance.png",
+        "genre_completion_rate.png",
+        "dau_trend.png",
+        "genre_popularity.png",
+        "wau_trend.png"
+    ],
+    "dashboard": "movie_streaming_dashboard.html"
+}

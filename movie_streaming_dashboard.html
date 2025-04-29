@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Streaming Platform Analytics Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .dashboard {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .chart-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .chart {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+        }
+        .recommendations {
+            background-color: #e8f4f8;
+        }
+        .recommendations ul {
+            padding-left: 20px;
+        }
+        .recommendations li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Movie Streaming Platform Analytics Dashboard</h1>
+        
+        <div class="section">
+            <h2>User Engagement</h2>
+            <div class="chart-container">
+                <img class="chart" src="charts/user_engagement_distribution.png" alt="User Engagement Distribution">
+            </div>
+            <div class="chart-container">
+                <img class="chart" src="charts/watch_time_by_age.png" alt="Watch Time by Age Group">
+            </div>
+            <div class="chart-container">
+                <img class="chart" src="charts/cohort_retention.png" alt="Cohort Retention">
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Content Performance</h2>
+            <div class="chart-container">
+                <img class="chart" src="charts/genre_popularity.png" alt="Genre Popularity">
+            </div>
+            <div class="chart-container">
+                <img class="chart" src="charts/genre_completion_rate.png" alt="Genre Completion Rate">
+            </div>
+            <div class="chart-container">
+                <img class="chart" src="charts/top_movies.png" alt="Top Movies">
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>User Activity</h2>
+            <div class="chart-container">
+                <img class="chart" src="charts/dau_trend.png" alt="DAU Trend">
+            </div>
+            <div class="chart-container">
+                <img class="chart" src="charts/wau_trend.png" alt="WAU Trend">
+            </div>
+            <div class="chart-container">
+                <img class="chart" src="charts/stickiness_trend.png" alt="Stickiness Trend">
+            </div>
+            <div class="chart-container">
+                <img class="chart" src="charts/hourly_activity.png" alt="Hourly Activity">
+            </div>
+            <div class="chart-container">
+                <img class="chart" src="charts/daily_activity.png" alt="Daily Activity">
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Genre Trends by Country</h2>
+            <div class="chart-container">
+                <img class="chart" src="charts/genre_country_heatmap.png" alt="Genre Country Heatmap">
+            </div>
+            <div class="chart-container">
+                <img class="chart" src="charts/top_genre_by_country.png" alt="Top Genre by Country">
+            </div>
+            <div class="chart-container">
+                <img class="chart" src="charts/genre_country_dominance.png" alt="Genre Country Dominance">
+            </div>
+        </div>
+        
+        <div class="section recommendations">
+            <h2>Business Recommendations</h2>
+            <ul>
+                <li>Focus content acquisition on genres with highest completion rates to increase user satisfaction</li>
+                <li>Target retention campaigns for cohorts showing declining engagement after 3 months</li>
+                <li>Optimize content delivery during peak viewing hours (7-10 PM) to ensure smooth streaming</li>
+                <li>Create country-specific featured content sections based on regional genre preferences</li>
+                <li>Develop engagement strategies for users in the 'Light' category to increase their activity</li>
+                <li>Consider age-specific content recommendations based on watch time patterns by age group</li>
+                <li>Launch weekend-specific promotions as weekend viewing activity is significantly higher</li>
+                <li>Implement smart notifications for prime viewing hours to increase DAU/WAU ratio</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
